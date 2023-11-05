@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    margin-top: 4.5%;
+    background: linear-gradient(135deg, #a7151a, #f4ea2b); background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+  }
+  
+  .rectangle {
+    
+    /* width: 80%;
+    height: 60%; */
+    /* background: url(https://th.bing.com/th/id/OIP.aQFRnxRMKNjRVu1utzbfNwHaDN?pid=ImgDet&w=600&h=260&rs=1) center/cover; */
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 4px solid #ffffff;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 50px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+  }
+
+  
+  
+  .h2 {
+    text-align: center;
+    color: white;
+
+  }
+  
+  /* Styling for the Choose File button */
+  .custom-file-upload {
+    border: 1px solid #0559b4;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the Convert to JPEG button */
+  #convertButton {
+    background-color: #f00586;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #convertButton:hover {
+    background-color: #e03ba9;
+  }
+  .fileInput{
+    background-color: #0372f8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+/* Styling for both buttons */
+.custom-file-upload, #convertButton {
+    border: 1px solid #007bff;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-file-upload {
+    background-color: #25d7f2;
+    color: #fff;
+    margin: 10px;
+  }
+  
+  #convertButton {
+    background-color: #2405f0;
+    color: #fff;
+    border: none;
+    margin: 10px;
+  }
+  
+  .custom-file-upload:hover, #convertButton:hover {
+    background-color: #0056b3;
+  }
+/* Styling for the "Download JPEG" button */
+#resultContainer a {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ec195f;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 150px; /* Adjust the width as needed */
+    margin: 0 auto;
+    transition: background-color 0.3s;
+  }
+  
+  #resultContainer a:hover {
+    background-color: #23724d;
+  }
+  
+  
